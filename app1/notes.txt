@@ -1,3 +1,11 @@
 # It is important to have `sudo` in your  npm scripts to allow program to access below certificate files.
 Certificate is saved at: /etc/letsencrypt/live/www.fixedlife.ml/fullchain.pem
 Key is saved at:         /etc/letsencrypt/live/www.fixedlife.ml/privkey.pem
+
+
+# FYI: I have generated (regenerated actually {no-need to delete previous coz generating new will replace older certs and private key files}).
+# So, below cer and private key files are redundant to use coz we can use for all these domains.
+Successfully received certificate.
+Certificate is saved at: /etc/letsencrypt/live/www.servicelife.ml/fullchain.pem
+Key is saved at:         /etc/letsencrypt/live/www.servicelife.ml/privkey.pem
+This certificate expires on 2022-07-25.
